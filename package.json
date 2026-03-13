@@ -1,0 +1,27 @@
+{
+  "name": "soldevilla",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "dev:web": "turbo dev --filter=@soldevilla/web",
+    "dev:admin": "turbo dev --filter=@soldevilla/admin",
+    "dev:api": "turbo dev --filter=@soldevilla/api",
+    "build:web": "turbo build --filter=@soldevilla/web",
+    "build:admin": "turbo build --filter=@soldevilla/admin",
+    "build:api": "turbo build --filter=@soldevilla/api"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "npm@10.9.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
