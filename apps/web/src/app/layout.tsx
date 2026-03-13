@@ -26,6 +26,10 @@ export const metadata: Metadata = {
     "microorganismos",
     "Soldevilla",
   ],
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Soldevilla | Soluciones Agrícolas Sostenibles",
     description:

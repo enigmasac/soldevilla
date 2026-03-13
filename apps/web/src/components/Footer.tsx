@@ -163,35 +163,35 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t-2 border-dotted border-white/10 py-5 max-md:py-[10px] flex max-md:flex-col items-center justify-between gap-4">
-          <p className="font-montserrat text-[13px] font-medium text-white text-center">
+        <div className="border-t-2 border-dotted border-white/10 pt-5 max-md:pt-3 pb-3 flex items-center justify-center gap-[15px] flex-wrap">
+          <Link href="/politica-de-privacidad" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
+            Términos y condiciones
+          </Link>
+          <span className="w-px h-3 bg-white/20" />
+          <Link href="/politica-de-privacidad" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
+            Políticas de privacidad
+          </Link>
+          <span className="w-px h-3 bg-white/20" />
+          <Link href="/politica-de-cookies" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
+            Política de cookies
+          </Link>
+          <span className="w-px h-3 bg-white/20" />
+          <Link href="/libro-de-reclamaciones" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
+            Libro de reclamaciones
+          </Link>
+        </div>
+        <div className="border-t border-dotted border-white/10 py-3 text-center">
+          <p className="font-montserrat text-[13px] font-medium text-white/60">
             © 2021 – 2026 Sol de Villa | Desarrollado por{" "}
             <a
               href="https://enigmasac.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-primary transition-colors no-underline"
+              className="text-white/60 hover:text-primary transition-colors no-underline"
             >
               Enigma Developers SAC
             </a>
           </p>
-          <div className="flex items-center gap-[15px] max-md:justify-center flex-wrap">
-            <Link href="/politica-de-privacidad" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
-              Términos y condiciones
-            </Link>
-            <span className="w-px h-3 bg-white/20" />
-            <Link href="/politica-de-privacidad" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
-              Políticas de privacidad
-            </Link>
-            <span className="w-px h-3 bg-white/20" />
-            <Link href="/politica-de-cookies" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
-              Política de cookies
-            </Link>
-            <span className="w-px h-3 bg-white/20" />
-            <Link href="/libro-de-reclamaciones" className="font-montserrat text-sm text-white hover:text-primary transition-colors no-underline">
-              Libro de reclamaciones
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
