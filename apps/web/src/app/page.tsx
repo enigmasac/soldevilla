@@ -18,8 +18,8 @@ export default function Home() {
         <Hero />
         <Features />
         <AboutUs />
-        <SoilComparison />
         <Solutions />
+        <SoilComparison />
         <Science />
         <Biotech />
         <Contact />

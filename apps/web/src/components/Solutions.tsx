@@ -86,7 +86,7 @@ export default function Solutions() {
   return (
     <section
       id="productos"
-      className="relative bg-dark-green mt-[60px] max-md:mt-[30px] mb-[100px] max-md:mb-[30px] pt-[50px] max-md:pt-0 pb-[200px] max-md:pb-20 px-[15px]"
+      className="relative bg-dark-green mt-[60px] max-md:mt-[30px] mb-[100px] max-md:mb-[30px] pt-[50px] max-md:pt-[50px] pb-[200px] max-md:pb-20 px-[15px]"
       style={{
         backgroundImage:
           "url(/images/backgrounds/image08.png)",
@@ -115,7 +115,7 @@ export default function Solutions() {
           }}
         />
 
-        <h3 className="font-montserrat text-[46px] max-md:text-[38px] font-bold leading-[1.1] text-white text-center mb-5">
+        <h3 className="font-montserrat text-[46px] max-md:text-[28px] font-bold leading-[1.1] text-white text-center mb-5">
           Nuestras soluciones
         </h3>
 
