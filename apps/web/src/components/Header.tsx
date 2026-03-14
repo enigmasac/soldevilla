@@ -83,7 +83,7 @@ export default function Header() {
       >
         <div className="max-w-container mx-auto px-4">
           <div className="flex items-center">
-            <div className="w-[16%] max-lg:w-full max-lg:max-w-[120px] shrink-0 py-5 max-lg:py-3">
+            <div className="w-[16%] max-lg:w-full max-lg:max-w-[120px] max-lg:mx-auto shrink-0 py-5 max-lg:py-3">
               <Link href="/" className="block">
                 <Image
                   src="/images/brand/logo.png"
@@ -164,21 +164,6 @@ export default function Header() {
               </nav>
             </div>
 
-            <div className="lg:hidden ml-auto flex items-center gap-3">
-              <a
-                href="#contacto"
-                onClick={handleNavClick}
-                className="
-                  bg-accent text-white font-inter text-xs font-bold uppercase
-                  px-4 py-3 rounded-pill
-                  hover:bg-dark-green
-                  transition-colors duration-200
-                  no-underline
-                "
-              >
-                Cotizar
-              </a>
-            </div>
           </div>
         </div>
       </div>
