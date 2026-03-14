@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-const WA_URL = "https://wa.me/51977867347";
+const WA_URL = "https://wa.me/51962240404";
 
 const MENU_ITEMS = [
   {

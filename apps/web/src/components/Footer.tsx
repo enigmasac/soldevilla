@@ -121,7 +121,7 @@ export default function Footer() {
               <div>
                 <h6 className="font-montserrat text-sm text-light-gray mb-1">Llámanos</h6>
                 <p className="font-montserrat text-sm font-bold text-white leading-[1.1]">
-                  +51 977 867 347
+                  +51 962 240 404
                 </p>
               </div>
             </div>

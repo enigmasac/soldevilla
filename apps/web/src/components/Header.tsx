@@ -32,8 +32,8 @@ const CONTACT_INFO = [
       </svg>
     ),
     title: "Llámanos",
-    detail: "(51) 977 867 347",
-    href: "tel:+51977867347",
+    detail: "(51) 962 240 404",
+    href: "tel:+51962240404",
   },
   {
     icon: (
@@ -43,7 +43,7 @@ const CONTACT_INFO = [
       </svg>
     ),
     title: "Ubicación",
-    detail: "Av. Mariscal La Mar 750, Miraflores",
+    detail: "Centro de Operaciones, Ica",
   },
 ];
 

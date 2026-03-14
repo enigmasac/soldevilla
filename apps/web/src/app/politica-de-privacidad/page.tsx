@@ -42,9 +42,9 @@ export default function PoliticaDePrivacidadPage() {
             <ul className="font-inter text-sm text-text leading-relaxed list-none flex flex-col gap-1 mb-4 pl-4">
               <li><strong className="text-dark-green">Razon social:</strong> SOL DE VILLA PERU S.A.C.</li>
               <li><strong className="text-dark-green">RUC:</strong> 20522163971</li>
-              <li><strong className="text-dark-green">Domicilio:</strong> Av. Mariscal La Mar 750, Miraflores, Lima, Peru</li>
+              <li><strong className="text-dark-green">Domicilio:</strong> Centro de Operaciones, Ica, Peru</li>
               <li><strong className="text-dark-green">Correo electronico:</strong> info@soldevilla.pe</li>
-              <li><strong className="text-dark-green">Telefono:</strong> (+51) 977 867 347</li>
+              <li><strong className="text-dark-green">Telefono:</strong> (+51) 962 240 404</li>
               <li><strong className="text-dark-green">Sitio web:</strong> soldevilla.pe</li>
             </ul>
           </div>
@@ -198,7 +198,7 @@ export default function PoliticaDePrivacidadPage() {
             </p>
             <ul className="font-inter text-sm text-text leading-relaxed list-none flex flex-col gap-1 mb-4 pl-4">
               <li><strong className="text-dark-green">Correo electronico:</strong> info@soldevilla.pe</li>
-              <li><strong className="text-dark-green">Direccion postal:</strong> Av. Mariscal La Mar 750, Miraflores, Lima, Peru</li>
+              <li><strong className="text-dark-green">Direccion postal:</strong> Centro de Operaciones, Ica, Peru</li>
             </ul>
             <p className="font-inter text-base text-text leading-relaxed mb-4">
               La solicitud debera incluir su nombre completo, documento de identidad y descripcion clara del derecho

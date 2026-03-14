@@ -92,10 +92,10 @@ function buildConfirmationHtml(data: ComplaintData, id: string) {
 
         <p style="font-size:14px;color:#414141">De acuerdo con el articulo 24 del D.S. 011-2011-PCM, el plazo maximo de respuesta es de <strong>30 dias calendario</strong> contados desde la fecha de presentacion de su ${typeLabel.toLowerCase()}.</p>
 
-        <p style="font-size:14px;color:#414141">Si tiene alguna consulta adicional, puede contactarnos en <a href="mailto:info@soldevilla.pe" style="color:#729F28">info@soldevilla.pe</a> o al telefono +51 977 867 347.</p>
+        <p style="font-size:14px;color:#414141">Si tiene alguna consulta adicional, puede contactarnos en <a href="mailto:info@soldevilla.pe" style="color:#729F28">info@soldevilla.pe</a> o al telefono +51 962 240 404.</p>
 
         <hr style="border:none;border-top:1px solid #D9D9D9;margin:24px 0" />
-        <p style="font-size:12px;color:#787878;text-align:center">Sol de Villa Peru S.A.C. | RUC 20522163971<br>Av. Mariscal La Mar 750, Miraflores, Lima</p>
+        <p style="font-size:12px;color:#787878;text-align:center">Sol de Villa Peru S.A.C. | RUC 20522163971<br>Centro de Operaciones, Ica</p>
       </div>
     </div>
   `;

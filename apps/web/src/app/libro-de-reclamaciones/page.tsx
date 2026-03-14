@@ -499,7 +499,7 @@ export default function LibroDeReclamacionesPage() {
                 </li>
                 <li className="font-inter text-sm text-text flex items-start gap-2">
                   <span className="font-montserrat font-medium text-dark-green shrink-0">Direccion:</span>
-                  Av. Mariscal La Mar 750, Miraflores, Lima
+                  Centro de Operaciones, Ica
                 </li>
                 <li className="font-inter text-sm text-text flex items-start gap-2">
                   <span className="font-montserrat font-medium text-dark-green shrink-0">Email:</span>
