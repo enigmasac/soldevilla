@@ -49,7 +49,6 @@ const CONTACT_INFO = [
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const isHome = pathname === "/";
 
@@ -69,12 +68,7 @@ export default function Header() {
     [isHome]
   );
 
-  const handleNavClick = useCallback(
-    () => {
-      setMobileMenuOpen(false);
-    },
-    []
-  );
+  const handleNavClick = useCallback(() => {}, []);
 
   return (
     <header className="fixed top-0 left-0 w-full z-[999]">
@@ -184,50 +178,11 @@ export default function Header() {
               >
                 Cotizar
               </a>
-              <button
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="text-white p-1"
-                aria-label="Menu Toggle"
-                aria-expanded={mobileMenuOpen}
-              >
-                {mobileMenuOpen ? (
-                  <svg className="w-8 h-8" viewBox="0 0 1000 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z" />
-                  </svg>
-                ) : (
-                  <svg className="w-8 h-8" viewBox="0 0 1000 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z" />
-                  </svg>
-                )}
-              </button>
             </div>
           </div>
         </div>
       </div>
 
-      {mobileMenuOpen && (
-        <nav className="lg:hidden bg-dark-green/95 backdrop-blur-sm">
-          <ul className="max-w-container mx-auto px-4 py-4 space-y-0">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.label} className="border-b border-[#87878726] last:border-0">
-                <a
-                  href={item.href}
-                  onClick={handleNavClick}
-                  className="
-                    block px-[18px] py-[15px]
-                    font-montserrat text-sm font-semibold uppercase
-                    text-white hover:text-white hover:bg-dark-green
-                    transition-colors duration-200
-                    no-underline
-                  "
-                >
-                  {item.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      )}
     </header>
   );
 }

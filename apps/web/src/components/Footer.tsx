@@ -180,7 +180,7 @@ export default function Footer() {
             Libro de reclamaciones
           </Link>
         </div>
-        <div className="border-t border-dotted border-white/10 py-3 text-center">
+        <div className="border-t border-dotted border-white/10 py-3 pb-20 lg:pb-3 text-center">
           <p className="font-montserrat text-[13px] font-medium text-white/60">
             © 2021 – 2026 Sol de Villa | Desarrollado por{" "}
             <a
