@@ -4,23 +4,23 @@ import WaveDivider from "@/components/WaveDivider";
 
 const SOLUTIONS = [
   {
-    image: "/images/products/biotor.png",
+    image: "/images/products/rooter.png",
     title: "Biológicos",
     href: "/categoria-producto/biologicos",
   },
   {
-    image: "/images/products/nutre.png",
+    image: "/images/products/nutre.jpg",
     title: "Abonos naturales",
     href: "/categoria-producto/abonos-naturales",
   },
   {
-    image: "/images/products/vigore.png",
+    image: "/images/products/vigore.jpg",
     title: "Fertilizantes ecológicos",
     href: "/categoria-producto/fertilizantes-ecologicos",
     hiddenOnMobile: true,
   },
   {
-    image: "/images/products/fuline.png",
+    image: "/images/products/fuline.jpg",
     title: "Control de plagas",
     href: "/categoria-producto/control-de-plagas",
   },

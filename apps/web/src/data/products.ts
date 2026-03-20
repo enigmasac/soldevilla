@@ -20,7 +20,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "biologicos",
     description:
       "Productos biológicos para una agricultura sostenible y eficiente.",
-    imageUrl: `${IMG}/biotor.png`,
+    imageUrl: `${IMG}/rooter.png`,
     productCount: 3,
   },
   {
@@ -29,7 +29,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "abonos-naturales",
     description:
       "Abonos de origen natural para nutrir tus cultivos de forma orgánica.",
-    imageUrl: `${IMG}/nutre.png`,
+    imageUrl: `${IMG}/nutre.jpg`,
     productCount: 10,
   },
   {
@@ -38,7 +38,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "fertilizantes-ecologicos",
     description:
       "Fertilizantes ecológicos que cuidan el medio ambiente y potencian tus cultivos.",
-    imageUrl: `${IMG}/vigore.png`,
+    imageUrl: `${IMG}/vigore.jpg`,
     productCount: 4,
   },
   {
@@ -47,7 +47,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "control-de-plagas",
     description:
       "Soluciones naturales para el control efectivo de plagas en tus cultivos.",
-    imageUrl: `${IMG}/fuline.png`,
+    imageUrl: `${IMG}/fuline.jpg`,
     productCount: 3,
   },
   {
@@ -102,7 +102,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Es un nematicida - fungicida biológico con efecto bioestimulante, formulado por un consorcio de esporas de dos cepas seleccionadas de hongos endófitos y agentes de control biológico, cepa Ta 13 de Trichoderma asperellum e IMI SD 187 de Pochonia chlamydosporia Var. Catenulata.",
     shortDescription: "Bionematicida y biofungicida.",
     categoryId: "cat-1",
-    imageUrl: `${IMG}/biotor.png`,
+    imageUrl: `${IMG}/nemater.png`,
     galleryUrls: [],
     features: [
       "Control biológico de nematodos",
@@ -115,7 +115,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "500 g",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/biotor.png`,
+    detailImageUrl: `${IMG}/nemater.png`,
     subtitle: "BIONEMATICIDA / BIOFUNGICIDA",
     scientificName:
       "Pochonia chlamydosporia cepa MI SD 187 / Trichoderma asperellum cepa Ta.13",
@@ -140,7 +140,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Es un insecticida microbiológico formulado a base de esporas de dos cepas seleccionadas de hongos endófitos y patógenos de insectos plagas.",
     shortDescription: "Bioinsecticida microbiológico.",
     categoryId: "cat-1",
-    imageUrl: `${IMG}/biotor.png`,
+    imageUrl: `${IMG}/biodefens.png`,
     galleryUrls: [],
     features: [
       "Control biológico de insectos plaga",
@@ -153,7 +153,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "250 g",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/biotor.png`,
+    detailImageUrl: `${IMG}/biodefens.png`,
     subtitle: "BIOINSECTICIDA",
     scientificName:
       "Metarhizium anisopliae cepa Bt.-Ma.05 / Beauveria bassiana cepa Bt.-Bb.03",
@@ -238,7 +238,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Es un bioactivador de origen natural a base de promotores de hormonas de crecimiento en la proporción ideal que el cultivo lo necesita que, en sinergismo con los nutrientes minerales, incrementan y mejoran la calidad de las cosechas.",
     shortDescription: "Bioactivador natural de crecimiento.",
     categoryId: "cat-2",
-    imageUrl: `${IMG}/nutre.png`,
+    imageUrl: `${IMG}/nutre.jpg`,
     galleryUrls: [],
     features: [
       "Promotor de hormonas de crecimiento",
@@ -250,7 +250,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "1 L, 5 L",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/nutre.png`,
+    detailImageUrl: `${IMG}/nutre.jpg`,
     subtitle: "BIOACTIVADOR",
     scientificName: "",
     benefitsImageUrl: "",
@@ -367,7 +367,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Fertilizante a base de silicio que fortalece la estructura celular de las plantas, mejorando su resistencia frente a estrés biótico y abiótico.",
     shortDescription: "Fertilizante a base de silicio.",
     categoryId: "cat-2",
-    imageUrl: `${IMG}/nutre.png`,
+    imageUrl: `${IMG}/nutre.jpg`,
     galleryUrls: [],
     features: [
       "Fortalece estructura celular",
@@ -379,7 +379,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "1 L, 5 L",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/nutre.png`,
+    detailImageUrl: `${IMG}/nutre.jpg`,
     subtitle: "FERTILIZANTE",
     scientificName: "",
     benefitsImageUrl: "",
@@ -569,7 +569,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Solución natural para el control efectivo de plagas en cultivos agrícolas.",
     shortDescription: "Control natural de plagas.",
     categoryId: "cat-4",
-    imageUrl: `${IMG}/fuline.png`,
+    imageUrl: `${IMG}/fuline.jpg`,
     galleryUrls: [],
     features: [
       "Control efectivo de plagas",
@@ -581,7 +581,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "1 L, 5 L",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/fuline.png`,
+    detailImageUrl: `${IMG}/fuline.jpg`,
     subtitle: "CONTROL DE PLAGAS",
     scientificName: "",
     benefitsImageUrl: "",

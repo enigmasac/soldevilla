@@ -42,21 +42,47 @@ export default function Contact() {
   const [docModal, setDocModal] = useState<"catalogo" | "ficha" | null>(null);
   const [docForm, setDocForm] = useState({ name: "", email: "", phone: "" });
   const [docSent, setDocSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    setSending(true);
+    try {
+      await fetch("https://hook.us2.make.com/buxf1tlwjgbak93v63ctj6cwdkpqlq8f", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      setSent(true);
+      setFormData({ name: "", email: "", phone: "", message: "" });
+      setTimeout(() => setSent(false), 4000);
+    } catch {
+      /* silent */
+    } finally {
+      setSending(false);
+    }
   }
 
   function handleDocChange(e: React.ChangeEvent<HTMLInputElement>) {
     setDocForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  function handleDocSubmit(e: React.FormEvent) {
+  async function handleDocSubmit(e: React.FormEvent) {
     e.preventDefault();
+    try {
+      await fetch("https://hook.us2.make.com/3lhb6nc6c13ngeyy1bjgqnvs01crf5xm", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...docForm, type: docModal }),
+      });
+    } catch {
+      /* silent */
+    }
     setDocSent(true);
     setTimeout(() => {
       setDocModal(null);
@@ -149,9 +175,10 @@ export default function Contact() {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-accent text-white font-montserrat text-base font-bold rounded-pill py-[15px] hover:bg-dark-green transition-colors cursor-pointer border-none"
+                  disabled={sending}
+                  className="w-full bg-accent text-white font-montserrat text-base font-bold rounded-pill py-[15px] hover:bg-dark-green transition-colors cursor-pointer border-none disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  Solicitar Cotización
+                  {sent ? "¡Enviado!" : sending ? "Enviando..." : "Solicitar Cotización"}
                 </button>
               </form>
             </div>
