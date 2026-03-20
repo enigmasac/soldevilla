@@ -29,7 +29,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "abonos-naturales",
     description:
       "Abonos de origen natural para nutrir tus cultivos de forma orgánica.",
-    imageUrl: `${IMG}/nutre.jpg`,
+    imageUrl: `${IMG}/nutre.png`,
     productCount: 10,
   },
   {
@@ -38,7 +38,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "fertilizantes-ecologicos",
     description:
       "Fertilizantes ecológicos que cuidan el medio ambiente y potencian tus cultivos.",
-    imageUrl: `${IMG}/vigore.jpg`,
+    imageUrl: `${IMG}/vigore.png`,
     productCount: 4,
   },
   {
@@ -47,7 +47,7 @@ export const CATEGORIES: ProductCategory[] = [
     slug: "control-de-plagas",
     description:
       "Soluciones naturales para el control efectivo de plagas en tus cultivos.",
-    imageUrl: `${IMG}/fuline.jpg`,
+    imageUrl: `${IMG}/fuline.png`,
     productCount: 3,
   },
   {
@@ -238,7 +238,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Es un bioactivador de origen natural a base de promotores de hormonas de crecimiento en la proporción ideal que el cultivo lo necesita que, en sinergismo con los nutrientes minerales, incrementan y mejoran la calidad de las cosechas.",
     shortDescription: "Bioactivador natural de crecimiento.",
     categoryId: "cat-2",
-    imageUrl: `${IMG}/nutre.jpg`,
+    imageUrl: `${IMG}/nutre.png`,
     galleryUrls: [],
     features: [
       "Promotor de hormonas de crecimiento",
@@ -250,7 +250,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "1 L, 5 L",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/nutre.jpg`,
+    detailImageUrl: `${IMG}/nutre.png`,
     subtitle: "BIOACTIVADOR",
     scientificName: "",
     benefitsImageUrl: "",
@@ -367,7 +367,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Fertilizante a base de silicio que fortalece la estructura celular de las plantas, mejorando su resistencia frente a estrés biótico y abiótico.",
     shortDescription: "Fertilizante a base de silicio.",
     categoryId: "cat-2",
-    imageUrl: `${IMG}/nutre.jpg`,
+    imageUrl: `${IMG}/nutre.png`,
     galleryUrls: [],
     features: [
       "Fortalece estructura celular",
@@ -379,7 +379,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "1 L, 5 L",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/nutre.jpg`,
+    detailImageUrl: `${IMG}/nutre.png`,
     subtitle: "FERTILIZANTE",
     scientificName: "",
     benefitsImageUrl: "",
@@ -569,7 +569,7 @@ export const PRODUCTS: ProductDetail[] = [
       "Solución natural para el control efectivo de plagas en cultivos agrícolas.",
     shortDescription: "Control natural de plagas.",
     categoryId: "cat-4",
-    imageUrl: `${IMG}/fuline.jpg`,
+    imageUrl: `${IMG}/fuline.png`,
     galleryUrls: [],
     features: [
       "Control efectivo de plagas",
@@ -581,7 +581,7 @@ export const PRODUCTS: ProductDetail[] = [
     presentation: "1 L, 5 L",
     createdAt: "2025-01-01",
     updatedAt: "2025-01-01",
-    detailImageUrl: `${IMG}/fuline.jpg`,
+    detailImageUrl: `${IMG}/fuline.png`,
     subtitle: "CONTROL DE PLAGAS",
     scientificName: "",
     benefitsImageUrl: "",

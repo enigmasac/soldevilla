@@ -9,18 +9,18 @@ const SOLUTIONS = [
     href: "/categoria-producto/biologicos",
   },
   {
-    image: "/images/products/nutre.jpg",
+    image: "/images/products/nutre.png",
     title: "Abonos naturales",
     href: "/categoria-producto/abonos-naturales",
   },
   {
-    image: "/images/products/vigore.jpg",
+    image: "/images/products/vigore.png",
     title: "Fertilizantes ecológicos",
     href: "/categoria-producto/fertilizantes-ecologicos",
     hiddenOnMobile: true,
   },
   {
-    image: "/images/products/fuline.jpg",
+    image: "/images/products/fuline.png",
     title: "Control de plagas",
     href: "/categoria-producto/control-de-plagas",
   },
