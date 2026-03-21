@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat, Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
-  themeColor: "#0B3D2C",
   openGraph: {
     title: "Soldevilla | Soluciones Agrícolas Sostenibles",
     description:
@@ -41,6 +40,10 @@ export const metadata: Metadata = {
     locale: "es_PE",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0B3D2C",
 };
 
 export default function RootLayout({
