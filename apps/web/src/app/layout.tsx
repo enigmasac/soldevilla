@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Montserrat, Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -42,10 +42,6 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = {
-  themeColor: "#0B3D2C",
-};
-
 export default function RootLayout({
   children,
 }: {
@@ -57,6 +53,7 @@ export default function RootLayout({
       className={`${montserrat.variable} ${inter.variable}`}
     >
       <head>
+        <meta name="theme-color" content="#0B3D2C" />
         <Script id="gtm" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
