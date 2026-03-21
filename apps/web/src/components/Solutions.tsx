@@ -73,7 +73,7 @@ function ProductCard({
           no-underline
         "
       >
-        Leer más
+        Ver productos
       </Link>
     </div>
   );
