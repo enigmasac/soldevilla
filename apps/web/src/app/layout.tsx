@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
+  other: {
+    "theme-color": "#0B3D2C",
+  },
   openGraph: {
     title: "Soldevilla | Soluciones Agrícolas Sostenibles",
     description:
