@@ -43,7 +43,7 @@ const CONTACT_INFO = [
       </svg>
     ),
     title: "Ubicación",
-    detail: "Centro de Operaciones, Ica",
+    detail: "Sede Central Lima / Operaciones Ica",
   },
 ];
 
