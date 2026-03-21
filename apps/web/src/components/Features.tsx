@@ -21,14 +21,15 @@ const FEATURES = [
 function PlusIcon() {
   return (
     <div className="flex justify-center mt-5">
-      <div
+      <a
+        href="#contacto"
         className="
           w-[52px] h-[52px] rounded-full
           bg-accent border-[5px] border-white
           flex items-center justify-center
           shadow-[0_-10px_20px_5px_rgba(0,0,0,0.1)]
           hover:bg-dark-green transition-colors duration-200
-          cursor-pointer
+          cursor-pointer no-underline
         "
       >
         <svg
@@ -38,7 +39,7 @@ function PlusIcon() {
         >
           <path d="M416 176H272V32c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V272h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
         </svg>
-      </div>
+      </a>
     </div>
   );
 }
