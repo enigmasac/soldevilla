@@ -57,7 +57,7 @@ function ProductCard({
         alt={title}
         width={300}
         height={300}
-        className="w-[130px] h-auto border border-accent rounded-[18px] mx-[15px] my-[15px]"
+        className="w-[160px] h-auto mx-[15px] my-[15px]"
       />
       <h5 className="font-montserrat text-xl max-md:text-xs font-bold leading-[1.1] text-dark-green text-center mb-5 px-2">
         {title}
